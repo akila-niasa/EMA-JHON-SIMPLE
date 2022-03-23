@@ -24,8 +24,7 @@ const Product = (props) => {
       </Card.Text>
     </Card.Body>
     <Card.Footer>
-      <Button  onClick={()=>addToCartHandler(props.pd)} className="text-light w-100 "  data-bs-toggle="button" autocomplete="off">Add to Cart<FontAwesomeIcon icon={faShoppingBasket}></FontAwesomeIcon></Button>
-      
+    <Button  onClick={()=>addToCartHandler(props.pd)} className="text-dark w-100 button"  data-bs-toggle="button" autoComplete="off">Add to Cart<FontAwesomeIcon icon={faShoppingBasket}></FontAwesomeIcon></Button>
     </Card.Footer>
   </Card>
 
